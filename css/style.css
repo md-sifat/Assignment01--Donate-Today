@@ -208,6 +208,8 @@
 .right_side .btn:hover{
     border: 2px solid crimson;
 }
+
+/* adding css to update area */
 .update{
     height: 80vh;
     width: 100%;
@@ -217,7 +219,7 @@
     align-items: center;
 }
 .sub{
-    width: 50%;
+    width: 40%;
     height: 28vh;
     border: 2px solid transparent;
     background-color: bisque;
@@ -230,7 +232,9 @@
     width: 150px;
     height: 45px;
     color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid transparent;
     border-radius: 0px 9px 9px 0px;
     background-color:rgb(229, 35, 74);
@@ -239,6 +243,28 @@
 .sub .input input{
     width: 250px;
     height: 45px;
+    color: rgb(119, 118, 118);
+    font-weight: 900;
+    background-color: rgb(225, 222, 222);
+    padding-left: 10px;
     border: 2px solid transparent;
     border-radius: 9px 0px 0px 9px;
+}
+.futter{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(11, 0, 29);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.futter .style{
+    color: crimson;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+}
+.futter p{
+    color: white;
 }
