@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gantari', sans-serif;
+}
+
+/* adding css in the hero section */
+.hero{
+    height: 100vh;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0, 0, 0, .7) url(../img/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.hero .title{
+    width: 60%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 15px;
+}
+.hero .moto{
+    width: 70%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+.btn{
+    border: 2px solid transparent;
+    padding: 12px;
+    color: aliceblue;
+    border-radius: 8px;
+    background-color: crimson;
+    font-weight: 600;
+}
+.btn:hover{
+    border: 2px solid transparent;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: white;
+    color: crimson;
+    font-weight: 900;
+    transition: .3s;
+}
+
+/* adding css in donate section */
+.donate-sec{
+    height: 80vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.sec1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.sec2{
+    width: 70%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(101, 101, 101);
+    padding: 25px;
+}
+.donate-sec .sec3{
+    display: flex;
+    flex-direction: row;
+}
+.donate-sec .btn:hover{
+    border: 2px solid crimson;
+}
+.donate-sec .btn{
+    margin-right: 72px;
+}
+
+.sec3 .paybar{
+    height: 6rem;
+    width: 10rem;
+    padding: 25px 30px;
+    font-size:2rem;
+    font-weight:900;
+    color: rgb(188, 185, 185);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: rgb(231, 230, 230);
+}
+.sec3 .paybar:hover{
+    background-color: rgb(246, 237, 239);
+    border: 2px solid crimson;
+    color: black;
+}
+.sec3 .clicked{
+    background-color: rgb(246, 237, 239);
+    border: 2px solid crimson;
+    color: black;
+}
+.sec4 input{
+    padding: 10px 200px;
+    margin: 50px;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight:600 ;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(84, 84, 84);
+    outline: 0;
+    transition: border-color 0.2s;
+}
+
+/* add css for donate plan section */
+
+.donate-plan{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-plan .plan{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.plan .planItem{
+    height: 45vh;
+    width: 400px;
+    margin: 0px 25px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 20px 70px;
+}
+.plan .i1{
+    background-color: rgb(201, 214, 210);
+}
+.plan .i2{
+    background-color: rgb(216, 218, 206);
+}
+.plan .i3{
+    background-color: rgb(208, 186, 206);
+}
+
+.planItem .item-title{
+    font-size: 2rem;
+    padding: 10px 0px;
+    font-weight: 700;
+    font-family: 'Gantari', sans-serif;
+}
+.planItem p{
+    font-weight: 700;
+}
+
+/* writting css for donate article part */
+
+.donate-article{
+    height:140vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-article .article{
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    border: 2px solid transparent;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+.article1{
+    margin-bottom: 150px;
+}
+.article .right_side{
+    display: flex;
+    padding: 0px 80px;
+    flex-direction: column;
+    width: 50%;
+    height: 40vh;
+    
+}
+.article .left_side .img{  
+    width: 55%;
+    height: 40vh;
+}
+.article .btn{
+    width: 60%;
+    margin-top:20px ;
+}
+.article p{
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.right_side .btn:hover{
+    border: 2px solid crimson;
+}
+
