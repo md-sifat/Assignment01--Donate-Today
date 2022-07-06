@@ -268,3 +268,33 @@
 .futter p{
     color: white;
 }
+
+/* css for donator section */
+.donator{
+    width: 70%;
+    height: 40vh;
+    border: 2px solid crimson;
+    box-shadow: 2px 3px 5px gray;
+    margin: auto auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.donator h2{
+    text-align: center;
+    font-weight: 900;
+}
+.donator p{
+    margin: 10px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.donator  .collection{
+    padding: 20px;
+}
+.donator  .recd{
+    padding: 20px;
+}
